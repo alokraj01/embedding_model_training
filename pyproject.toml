@@ -1,0 +1,20 @@
+[project]
+name = "table-retrieval-embeddings"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Alok Raj", email = "alok.raj@joulestowatts.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "datasets>=5.0.1",
+    "huggingface-hub>=1.33.0",
+    "sqlglot>=30.20.0",
+]
+
+[project.scripts]
+table-retrieval-embeddings = "table_retrieval_embeddings:main"
+
+[build-system]
+requires = ["uv_build>=0.12.8,<0.13.0"]
+build-backend = "uv_build"
