@@ -21,3 +21,7 @@ secrets*
 # Local tooling
 .claude/settings.local.json
 .DS_Store
+
+# Trained models and checkpoints
+models/
+results/

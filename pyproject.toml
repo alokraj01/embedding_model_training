@@ -3,13 +3,17 @@ name = "table-retrieval-embeddings"
 version = "0.1.0"
 description = "Add your description here"
 authors = [
-    { name = "Alok Raj", email = "alok.raj@joulestowatts.com" }
+    { name = "Alok Raj", email = "alok.raj2894@gmail.com" }
 ]
 requires-python = ">=3.12"
 dependencies = [
+    "accelerate>=1.15.0",
     "datasets>=5.0.1",
     "huggingface-hub>=1.33.0",
+    "matplotlib>=3.11.2",
+    "sentence-transformers>=6.1.0",
     "sqlglot>=30.20.0",
+    "torch>=2.14.1",
 ]
 
 [project.scripts]
