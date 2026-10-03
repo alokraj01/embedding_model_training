@@ -22,6 +22,10 @@ secrets*
 .claude/settings.local.json
 .DS_Store
 
+# Spider SQLite databases (downloaded by src/sql_exec.py, ~470 MB)
+data/raw/spider_db/
+data/
+
 # Trained models and checkpoints
 models/
 results/
